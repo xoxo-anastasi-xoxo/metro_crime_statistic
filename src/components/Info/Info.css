@@ -1,0 +1,12 @@
+.Info {
+  position: absolute;
+  width: 25vw;
+  height: 85vh;
+  top: 10vh;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+
+  color: #e4e4e4;
+  background: black;
+}

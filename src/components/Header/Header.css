@@ -1,0 +1,18 @@
+.Header {
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+
+  color: #e4e4e4;
+  background: black;
+}
+
+.Header__Title {
+  padding-top: 0;
+  margin: auto 0;
+  font-size: 5vh;
+  font-family: 'Quattrocento', serif;
+  padding-left: 5vw;
+}

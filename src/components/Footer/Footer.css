@@ -1,0 +1,18 @@
+.Footer {
+  position: absolute;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  color: #707070;
+  background: black;
+}
+
+.Footer__Title {
+  padding-top: 0;
+  margin: auto 0;
+  font-size: 2vh;
+  font-weight: 100;
+  padding-left: 3vw;
+}
