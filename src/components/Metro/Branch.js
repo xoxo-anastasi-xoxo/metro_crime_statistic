@@ -13,7 +13,7 @@ class Branch extends React.Component {
           branch.ways.map((key, index) => (<Way key={index} info={key}/>))
         }
         {
-          branch.stations.map((key, index) => (<Station key={index} info={key}/>))
+          branch.stations.map((key, index) => (<Station key={index} info={key} indexes={[this.props.index, index]}/>))
         }
       </g>);
   }

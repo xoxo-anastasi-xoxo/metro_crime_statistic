@@ -30,6 +30,10 @@
   width: 1000px;
 }
 
+.refs {
+  cursor: pointer;
+}
+
 .st0{fill:none;stroke:#512D14;stroke-width:3;stroke-miterlimit:10;}
 .st1{display:none;}
 .st2{fill:#0000CC;}
@@ -62,3 +66,17 @@
 .st29{fill:#FFFFFF;stroke:#512D14;stroke-width:3;stroke-miterlimit:10;}
 .st30{fill:#FFFFFF;stroke:#EABBE9;stroke-width:3;stroke-miterlimit:10;}
 .st__title{font-size:12px;}
+
+
+/*unactive:)))))))))))))))*/
+.unactive {
+  fill-opacity: 0.3;
+}
+
+.unactive_station {
+  stroke-opacity: 0.3;
+ }
+
+.unactive_text {
+  color: #707070;
+}

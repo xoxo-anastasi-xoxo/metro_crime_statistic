@@ -1,14 +1,15 @@
 import React from 'react';
 import "./Info.css"
 
-class InfoText extends React.Component {
+class InfoForm extends React.Component {
   render() {
     return (
-      <div className={}>
-
+      <div className="InfoForm">
+        {/*<div>Подборки...</div>*/}
+        Подборки...
       </div>
     );
   }
 }
 
-export default InfoText;
+export default InfoForm;

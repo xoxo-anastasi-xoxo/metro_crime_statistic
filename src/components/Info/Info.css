@@ -1,6 +1,6 @@
 .Info {
   box-sizing: border-box;
-  padding: 3vw;
+  padding: 3vh;
   position: absolute;
   /*width: 35vw;*/
   width: calc(100vw - 85vh - (88vw - 135vh));
@@ -22,6 +22,53 @@
 }
 
 .InfoText {
+  height: 63vh;
+  padding-top: 2vh;
   font-family: 'Fira Sans', sans-serif;
-font-size: 2.45vh;
+  font-size: 2vh;
+
+  white-space: pre-wrap;
+  width:  calc(100vw - 85vh - (88vw - 135vh) - 6vh);
+
+  overflow: scroll;
+  /* ie 10+ */
+  -ms-overflow-style: none;
+  /* фф (свойство больше не работает, других способов тоже нет)*/
+  overflow: -moz-scrollbars-none;
 }
+
+.InfoText::-webkit-scrollbar {
+  width: 0;
+}
+
+.InfoForm {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2vh;
+  color: black;
+  padding-top: 1vh;
+  border-radius: 3vh;
+  outline:none;
+  background-color: white;
+  margin-top: 1vh;
+  height: 3vh;
+  padding-left: 3vh;
+}
+
+.InfoForm:hover {
+  background-color: #e0e0e0;
+
+}
+
+.List {
+  visibility: hidden;
+}
+
+.InfoForm:focus ~ .List {
+   transition-property: width, height;
+   transition-duration: 1s;
+   visibility: visible;
+   width: 24px;
+   height: 24px;
+ }
