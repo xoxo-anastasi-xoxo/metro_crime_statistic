@@ -18,11 +18,11 @@
   width: 100%;
   border-radius: 10vh;
   border: solid white 0.3vh;
-  padding: 2vw;
+  padding: 2vh;
 }
 
 .InfoText {
-  height: 63vh;
+  height: 66vh;
   padding-top: 2vh;
   font-family: 'Fira Sans', sans-serif;
   font-size: 2vh;
@@ -42,33 +42,9 @@
 }
 
 .InfoForm {
-  text-align: left;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 700;
-  font-size: 2vh;
-  color: black;
-  padding-top: 1vh;
-  border-radius: 3vh;
-  outline:none;
+  cursor: pointer;
+height: 1vh;
   background-color: white;
-  margin-top: 1vh;
-  height: 3vh;
-  padding-left: 3vh;
+  border-radius: 2vh;
+  margin-top: 3vh;
 }
-
-.InfoForm:hover {
-  background-color: #e0e0e0;
-
-}
-
-.List {
-  visibility: hidden;
-}
-
-.InfoForm:focus ~ .List {
-   transition-property: width, height;
-   transition-duration: 1s;
-   visibility: visible;
-   width: 24px;
-   height: 24px;
- }
