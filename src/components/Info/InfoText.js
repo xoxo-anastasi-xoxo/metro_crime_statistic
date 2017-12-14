@@ -10,7 +10,10 @@ class InfoText extends React.Component {
       text = this.props.metro[this.props.page.current_info.stationInStore[0]].stations[this.props.page.current_info.stationInStore[1]].text;
 name = this.props.metro[this.props.page.current_info.stationInStore[0]].stations[this.props.page.current_info.stationInStore[1]].name
     }
-
+    if (this.props.page.current_info.amount === 2) {
+      text = this.props.page.sets[this.props.page.current_info.id].text;
+      name = this.props.page.sets[this.props.page.current_info.id].name;
+    }
     return (
       <div className="InfoText">
         <h2>{name || "Преступность в метро"}</h2>

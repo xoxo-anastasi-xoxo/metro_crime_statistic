@@ -16,3 +16,11 @@
   font-family: 'Quattrocento', serif;
   /*padding-left:  calc(((88vw - 135vh) / 2) + 3vw);*/
 }
+
+
+@media (max-width: 164vh) {
+  .Header {
+    height: 10vh;
+    position: relative;
+  }
+}

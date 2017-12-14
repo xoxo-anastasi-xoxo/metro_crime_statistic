@@ -11,7 +11,6 @@
   justify-content: space-between;
 
   color: #e4e4e4;
-  background: black;
 }
 
 .Info_inside {
@@ -22,7 +21,7 @@
 }
 
 .InfoText {
-  height: 66vh;
+  height: 75vh;
   padding-top: 2vh;
   font-family: 'Fira Sans', sans-serif;
   font-size: 2vh;
@@ -41,10 +40,56 @@
   width: 0;
 }
 
-.InfoForm {
+.ListItem {
+  text-align: left;
+border-bottom: solid white 0.2vh;
+  font-size: 2vh;
+  padding: 1vh;
   cursor: pointer;
-height: 1vh;
-  background-color: white;
-  border-radius: 2vh;
-  margin-top: 3vh;
+}
+
+.Button {
+  /*background-image: url("");*/
+  border-radius: 100%;
+  width: 7vh;
+  height:7vh;
+  position: absolute;
+  right: 1.5vw;
+border: solid white 0.2vh;
+  padding: 1vh;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.line {
+height: 1.1vh;
+  width: 4.7vh;
+  border-bottom: solid white 0.2vh;
+}
+
+
+@media (max-width: 164vh) {
+  .Info {
+    position: relative;
+    width: 96vw;
+    height: 85vh;
+    top: 0;
+    right: auto;
+    left: 2vw;
+  }
+
+  .Info_inside {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .Button {
+    width: 7vh;
+    height:7vh;
+    position: absolute;
+    right: 22vw;
+    padding: 1vh;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
 }

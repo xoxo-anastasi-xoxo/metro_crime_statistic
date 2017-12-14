@@ -8,10 +8,10 @@ class Metro extends React.Component {
     const styles = {
       enableBackground: "new 0 0 1920 1080"
     };
-    console.log(this.props.metro)
     return (
       <div className="Metro">
         <svg version="1.1"
+             id="makeMeDraggable"
              className="Metro_image"
              xmlns="http://www.w3.org/2000/svg"
              x="0px"

@@ -1,6 +1,4 @@
 .Metro {
-  /*left: calc((65vw - 85vh)/2);*/
-  /*left: 3vw;*/
   left: calc((88vw - 135vh) / 2);
 
   margin: 0 auto;
@@ -16,9 +14,6 @@
   /* фф (свойство больше не работает, других способов тоже нет)*/
   overflow: -moz-scrollbars-none;
   -moz-box-shadow:0 0 5vh white; -webkit-box-shadow:0 0 5vh white; box-shadow:0 0 5vh white;
-  /*-moz-box-shadow:0 0 20px #555;*/
-  /*-webkit-box-shadow:0 0 20px #555;*/
-  /*box-shadow:0 0 20px #555;*/
 }
 
 /* хром, сафари */
@@ -28,6 +23,16 @@
 
 .Metro_image {
   width: 1000px;
+}
+
+@media (max-width: 164vh) {
+  .Metro {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 96vw;
+    width: 96vw;
+  }
 }
 
 .refs {
