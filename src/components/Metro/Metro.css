@@ -30,6 +30,16 @@
     position: relative;
     left: 0;
     top: 0;
+    height: 80vw;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 120vh) {
+  .Metro {
+    position: relative;
+    left: 0;
+    top: 0;
     height: 96vw;
     width: 96vw;
   }

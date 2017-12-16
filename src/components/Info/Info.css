@@ -21,6 +21,7 @@
 }
 
 .InfoText {
+  width: 100%;
   height: 75vh;
   padding-top: 2vh;
   font-family: 'Fira Sans', sans-serif;
@@ -80,6 +81,9 @@ height: 1.1vh;
 
   .Info_inside {
     width: 60%;
+  }
+
+  .InfoText {
     margin: 0 auto;
   }
 
