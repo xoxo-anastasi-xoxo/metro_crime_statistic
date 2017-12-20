@@ -16,6 +16,11 @@ class Station extends React.Component {
             transform={this.props.info.transform}
             className="st__title refs">{this.props.info.name}
             </text>
+      <text onClick={this.props.chooseStation.bind(this, this.props.indexes)}
+            id={this.props.info.id}
+            transform={this.props.info.transform}
+            className="st__title refs">{this.props.info.name}
+      </text>
     </g>);
   }
 }

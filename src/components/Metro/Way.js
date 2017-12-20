@@ -3,6 +3,13 @@ import "./Metro.css"
 
 class Way extends React.Component {
   render() {
+    if (this.props.info.is_circle){
+      return(<g>
+        <path className={this.props.info.class}
+              d={this.props.info.d}/>
+      </g>);
+    }
+    else
     if (this.props.info.transform) {
       return(<g>
         <rect id={this.props.info.id}

@@ -23,6 +23,8 @@
 
 .Metro_image {
   width: 1000px;
+  left: -117px;
+  top: 49px;
 }
 
 @media (max-width: 164vh) {
@@ -119,6 +121,7 @@
 .st36{fill:#9504A5;stroke:#80348B;stroke-width:3;stroke-miterlimit:10;}
 .st__title{
   font-size:12px;
+
   /*stroke: rgba(256,256,256,0.5);*/
 }
 
