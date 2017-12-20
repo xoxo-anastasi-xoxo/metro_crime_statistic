@@ -120,19 +120,23 @@
 .st35{font-size:12.354px;}
 .st36{fill:#9504A5;stroke:#80348B;stroke-width:3;stroke-miterlimit:10;}
 .st__title{
-  font-size:12px;
-
+  font-size:11px;
+  stroke: #a7a7a7;
+  stroke-width: 0.2px;
+  fill: black;
+  /*font-family:'Arial';*/
   /*stroke: rgba(256,256,256,0.5);*/
 }
 
 
 /*unactive:)))))))))))))))*/
 .unactive {
-  fill-opacity: 0.3;
+  fill-opacity: 0.18;
+  stroke-opacity: 0.18;
 }
 
 .unactive_station {
-  stroke-opacity: 0.3;
+  stroke-opacity: 0.18;
  }
 
 .unactive_text {
