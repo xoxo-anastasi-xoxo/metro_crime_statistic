@@ -50,13 +50,10 @@ border-bottom: solid white 0.2vh;
 }
 
 .Button {
-  /*background-image: url("");*/
-  border-radius: 100%;
   width: 7vh;
   height:7vh;
   position: absolute;
   right: 1.5vw;
-border: solid white 0.2vh;
   padding: 1vh;
   box-sizing: border-box;
   cursor: pointer;

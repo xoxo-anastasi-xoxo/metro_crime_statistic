@@ -2,6 +2,8 @@ import React from 'react'
 import {connect} from 'react-redux'
 import './Metro.css'
 import Branch from './Branch'
+import {treks} from '../../reducers/metro'
+import Trek from "./Trek";
 
 class Metro extends React.Component {
   render() {
@@ -18,6 +20,9 @@ class Metro extends React.Component {
              y="0px"
              viewBox="0 0 1920 1080"
              style={styles}>
+          {
+            treks.map((key, index) => (<Trek key={index} info={key}/>))
+          }
           {
             this.props.metro.map((key, index) => (<Branch key={index} index={index}/>))
           }
