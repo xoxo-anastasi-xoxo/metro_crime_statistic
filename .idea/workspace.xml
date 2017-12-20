@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a26abb1d-4230-46cb-8dcd-b5e11b1f1390" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Info/InfoText.js" afterPath="$PROJECT_DIR$/src/components/Info/InfoText.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Metro/Metro.css" afterPath="$PROJECT_DIR$/src/components/Metro/Metro.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/page.js" afterPath="$PROJECT_DIR$/src/reducers/page.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -167,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Info/InfoText.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="44" />
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -392,12 +390,12 @@
       <workItem from="1513194300733" duration="32007000" />
       <workItem from="1513431504474" duration="372000" />
       <workItem from="1513442403899" duration="610000" />
-      <workItem from="1513695039450" duration="29506000" />
+      <workItem from="1513695039450" duration="30110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89792000" />
+    <option name="totallyTimeSpent" value="90396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -922,7 +920,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Info/InfoText.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="44" />
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
