@@ -17,7 +17,7 @@ name = this.props.metro[this.props.page.current_info.stationInStore[0]].stations
     return (
       <div className="InfoText">
         <h2>{name || "Преступность в метро"}</h2>
-        {text || "Тут может быть любой приветственный текст:)) Состав команды, цель проекта и бла-бла-бла :)\n \n \n \n \nтекст_можно_прокрутить_ниже \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n вот так вот:)"}
+        {text || " \n \n \n \n вот так вот:)"}
       </div>
     );
   }
