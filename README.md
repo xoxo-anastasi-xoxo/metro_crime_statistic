@@ -3,7 +3,7 @@
 Вмзуализация проекта студентов факультета социологии НИУ ВШЭ. Предназначен для удобного ознакомления с результатами работы студенческой исследовательской группы.
 
 - [Запуск приложения](#запуск-приложения)
-- [Использование приложения](#sending-feedback)
+- [Использование приложения](#использование-приложения)
 - [Folder Structure](#folder-structure)
 
 
@@ -24,7 +24,7 @@ In most cases bumping the `react-scripts` version in `package.json` and running 
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
-## Sending Feedback
+## Использование приложения
 
 We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
 
