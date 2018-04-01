@@ -2,12 +2,12 @@
 
 Вмзуализация проекта студентов факультета социологии НИУ ВШЭ. Предназначен для удобного ознакомления с результатами работы студенческой исследовательской группы.
 
-- [Запуск приложения](#updating-to-new-releases)
+- [Запуск приложения](#запуск-приложения)
 - [Использование приложения](#sending-feedback)
 - [Folder Structure](#folder-structure)
 
 
-## Updating to New Releases
+## Запуск приложения
 
 Create React App is divided into two packages:
 
