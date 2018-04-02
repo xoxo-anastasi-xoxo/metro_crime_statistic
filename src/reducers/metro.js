@@ -5512,13 +5512,8 @@ const unactive_metro = [
 
 
 export default function login(state = JSON.parse(JSON.stringify(metro)), action) {
-  // console.log("METRO");
-  // console.log(metro);
-  // console.log(state);
 
   let newState = JSON.parse(JSON.stringify(state));
-  // console.log("AC");
-  // console.log(action.type);
   switch (action.type) {
     case CHOOSE_STATION:
       newState = JSON.parse(JSON.stringify(unactive_metro));
@@ -5526,8 +5521,9 @@ export default function login(state = JSON.parse(JSON.stringify(metro)), action)
       return newState;
 
     case CHOOSE_SET:
+      if (!action.id)
+        return newState;
       newState = JSON.parse(JSON.stringify(unactive_metro));
-      // console.log(sets)
       let toChange = sets[action.id].stations;
       toChange.forEach((el) => {
         newState[el[0]].stations[el[1]].class = metro[el[0]].stations[el[1]].class;

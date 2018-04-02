@@ -8,9 +8,9 @@ class Button extends React.Component {
     return (
       <div className="Button"
            onClick={this.props.openSet}>
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
+        <div className="line"> </div>
+        <div className="line"> </div>
+        <div className="line"> </div>
       </div>
     );
   }

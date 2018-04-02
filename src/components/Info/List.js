@@ -9,7 +9,6 @@ class List extends React.Component {
     return (
 
       <div className="InfoText">
-        <h2>Подборки</h2>
         {
           this.props.sets.map((key, index) => (<ListItem id={index} key={index} name={key.name}/>))
         }

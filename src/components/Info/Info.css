@@ -1,96 +1,119 @@
 .Info {
-  box-sizing: border-box;
-  padding: 3vh;
-  position: absolute;
-  /*width: 35vw;*/
-  width: calc(100vw - 85vh - (88vw - 135vh));
-  height: 85vh;
-  top: 10vh;
-  right: calc((88vw - 135vh) / 2);
-  display: flex;
-  justify-content: space-between;
+    min-font-size: 15px;
+    box-sizing: border-box;
+    padding: 3vh;
+    position: absolute;
+    width: calc(100vw - 85vh - (88vw - 135vh));
+    min-height: 300px;
+    height: 85vh;
+    top: 10vh;
+    right: calc((88vw - 135vh) / 2);
+    display: flex;
+    justify-content: space-between;
 
-  color: #e4e4e4;
+    color: #e4e4e4;
 }
 
 .Info_inside {
-  width: 100%;
-  border-radius: 10vh;
-  border: solid white 0.3vh;
-  padding: 2vh;
+    width: 100%;
+    border-radius: 10vh;
+    border: solid white 0.3vh;
+    padding: 2vh;
 }
 
 .InfoText {
-  width: 100%;
-  height: 75vh;
-  padding-top: 2vh;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 2vh;
+    height: 86%;
+    padding-top: 2vh;
+    font-family: 'PT Mono', monospace;
+    text-align: left;
+    white-space: pre-wrap;
+    width: calc(100vw - 85vh - (88vw - 135vh) - 6vh);
 
-  white-space: pre-wrap;
-  width:  calc(100vw - 85vh - (88vw - 135vh) - 6vh);
+    font-size: 1.3vw;
 
-  overflow: scroll;
-  /* ie 10+ */
-  -ms-overflow-style: none;
-  /* фф (свойство больше не работает, других способов тоже нет)*/
-  overflow: -moz-scrollbars-none;
+    border-bottom-left-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+
+    overflow: scroll;
+    /* ie 10+ */
+    -ms-overflow-style: none;
+    /* фф (свойство больше не работает, других способов тоже нет)*/
+    overflow: -moz-scrollbars-none;
 }
 
 .InfoText::-webkit-scrollbar {
-  width: 0;
+    width: 0;
 }
 
 .ListItem {
-  text-align: left;
-border-bottom: solid white 0.2vh;
-  font-size: 2vh;
-  padding: 1vh;
-  cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: #b4b4b4;
+    font-size: 100%;
+    padding: 1.3%;
+    cursor: pointer;
+}
+
+.ListItem:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info_title {
+    min-font-size: 23px;
+    font-size: 2vw;
+    margin: 1.5vw;
+    text-align: left;
 }
 
 .Button {
-  width: 7vh;
-  height:7vh;
-  position: absolute;
-  right: 1.5vw;
-  padding: 1vh;
-  box-sizing: border-box;
-  cursor: pointer;
+    margin-right: 5%;
+    width: 5vw;
+    height: 5vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 100%;
 }
 
 .line {
-height: 1.1vh;
-  width: 4.7vh;
-  border-bottom: solid white 0.2vh;
+    height: 25%;
+    width: 100%;
+    border-bottom: solid 0.2vw;
+    min-width: 30px;
 }
 
 
 @media (max-width: 164vh) {
-  .Info {
-    position: relative;
-    width: 96vw;
-    height: 85vh;
-    top: 0;
-    right: auto;
-    left: 2vw;
-  }
+    .Info {
+        position: relative;
+        width: 96vw;
+        height: 85vh;
+        top: 0;
+        right: auto;
+        left: 2vw;
+    }
 
-  .Info_inside {
-    width: 60%;
-  }
+    .Info_inside {
+        width: 60%;
+        margin: 0 auto;
+    }
 
-  .InfoText {
-    margin: 0 auto;
-  }
+    .InfoText {
+        margin: 0 auto;
+    }
 
-  .Button {
-    width: 7vh;
-    height:7vh;
-    position: absolute;
-    right: 22vw;
-    padding: 1vh;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
+    .Button {
+
+    }
+}
+
+@media (max-width: 600px) {
+    .Info_inside {
+        width: 98%;
+    }
 }

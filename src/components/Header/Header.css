@@ -1,27 +1,39 @@
 .Header {
-  margin: 0 5vw;
-  position: absolute;
-  width: 90vw;
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
+    margin: 0 5vw;
+    position: absolute;
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
 
-  color: #e4e4e4;
+    color: #e4e4e4;
 }
 
 .Header__Title {
-  box-sizing: border-box;
-  padding-bottom: 1vh;
-  margin: auto;
-  font-size: 5.5vh;
-  font-family: 'Quattrocento', serif;
-  /*padding-left:  calc(((88vw - 135vh) / 2) + 3vw);*/
+    box-sizing: border-box;
+    padding-bottom: 1vh;
+    margin: auto;
+    font-size: 5.5vh;
+    font-family: 'Quattrocento', serif;
+    cursor: pointer;
+    text-decoration: none;
 }
 
+.Header__Title:visited {
+    color: white;
+}
+
+.Header__Title:active {
+    color: white;
+}
+
+.Header__Title:hover {
+    color: white;
+}
 
 @media (max-width: 164vh) {
-  .Header {
-    height: 10vh;
-    position: relative;
-  }
+    .Header {
+        height: 10vh;
+        position: relative;
+    }
 }
